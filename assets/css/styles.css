@@ -1,34 +1,42 @@
-body{
+body {
     font-family: Helvetica;
 }
+
+
 /*BARRA DE NAVEGACIÓN*/
-.navbar{
-    position: fixed; /*para q esté fijo y como variará la anchura*/
-    width: 100vw; /*la recuperamos con este valor al 100*/
-    z-index: 1; /*para que se superponga a cualquier elemento*/
+
+.navbar {
+    position: fixed;
+    /*para q esté fijo y como variará la anchura*/
+    width: 100vw;
+    /*la recuperamos con este valor al 100*/
+    z-index: 1;
+    /*para que se superponga a cualquier elemento*/
 }
 
-.logo-imagen{
-    max-height: 50px; /*para que imagen se ajuste a la barra de navegación*/
-
+.logo-imagen {
+    max-height: 50px;
+    /*para que imagen se ajuste a la barra de navegación*/
 }
 
 #Inicio {
-    background-size: cover; /*para q se autoajuste a la dimension disponible*/
+    background-size: cover;
+    /*para q se autoajuste a la dimension disponible*/
     background-position: center;
 }
 
-
-#Color-fondo{
-    background-color:black ;
-    color:white;
+#Color-fondo {
+    background-color: black;
+    color: white;
 }
 
-.parrafo-icono{ /*centra el ícono de fontawesone*/
+.parrafo-icono {
+    /*centra el ícono de fontawesone*/
     text-align: center;
 }
 
-#Footer i{ /*cambia el color de los iconos del fontawesome*/
+#Footer i {
+    /*cambia el color de los iconos del fontawesome*/
     color: #ffffff;
 }
 
